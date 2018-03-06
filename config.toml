@@ -1,0 +1,36 @@
+baseurl = "http://compsoc.man.ac.uk/~psycholinglab/"
+title = "psycholinguisticslab"
+theme = "hugo-theme-vec"
+languageCode = "en-us"
+paginate = 10
+disqusShortname = "psycholinguisticslab"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "equipment"
+    weight = 0
+    url = "/equipment"
+  [[menu.main]]
+    name = "timetable"
+    weight = 1
+    url = "/timetable"
+  [[menu.main]]
+    name = "contact"
+    weight = 2
+    url = "/contact"
+  [[menu.main]]
+    name = "people"
+    weight = 3
+    url = "/people"
+
+[params]
+  Keywords = "linguistics, psychology, laboratory"
+  Description = "Psycholinguistics Laboratory at The University of Manchester"
+  Avatar = "img/avatar.jpg"
+  SelfIntro = "Psycholinguistics Laboratory"
+  Email = "massimiliano.canzi@postgrad.manchester.ac.uk"
+
+  GithubID = "masscanzi"
+  TwitterID = "@MC_anzi"
+  
